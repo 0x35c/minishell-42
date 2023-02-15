@@ -12,7 +12,7 @@ It's possible to suppress readline leaks by using
 `valgrind --suppressions=vsupp`
 
 With vsupp file as following:
-`
+```
 {
    readline
    Memcheck:Leak
@@ -28,4 +28,4 @@ With vsupp file as following:
    fun:add_history
    ...
 }
-`
+```
